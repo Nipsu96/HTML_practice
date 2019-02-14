@@ -53,3 +53,21 @@ body{
     text-align: center;
 
 }
+
+#main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#basicinfo{
+    justify-content: right;
+    justify-content: flex-end;
+}
+
+aside{
+    float: right;
+}
+
+caption{
+    font-size: 30px
+}

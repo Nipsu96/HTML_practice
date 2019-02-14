@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+}
+
+.subdiv {
+    height: auto;
+    width: auto;
+    padding: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+
+.highdiv {
+    height: 350px;
+    width: 200px;
+    background-color: lightseagreen;
+}
+
+.widediv {
+    height: 100px;
+    width: 250px;
+    background-color: lightslategray;
+    order: -1;
+}
