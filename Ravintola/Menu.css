@@ -51,8 +51,8 @@ input[type="submit"]{
   cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
-  body {
+@media screen and (max-width: 480px) {
+  body{
     background-image: none;
     background-color: rgb(188, 238, 255);
     grid-template-areas:
@@ -61,7 +61,13 @@ input[type="submit"]{
   'main main '
   'footer footer';
   grid-gap: 10px;
-  display: grid;
-   }
-
+}
+}
+@media screen and (max-width: 480px){
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(151, 188, 223);
+    padding: 3px;
+    }
 }
